@@ -50,7 +50,7 @@ namespace benkyou5_4
             }
         }
 
-        // --- ここがエラーを消すための追加部分 ---
+        // --- ここが GitHub 上で不足している部分です ---
 
         private async void UpdateButton_Click(object sender, RoutedEventArgs e)
         {

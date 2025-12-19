@@ -37,7 +37,7 @@ var employees = await _client.GetFromJsonAsync<List<Employee>>("api/employee");
             EmployeeGrid.ItemsSource = employees;
         }
 
-        private async void ReloadButton_Click(object sender, RoutedEventArgs e)
+        private async void ReloadButton_Click(object sender, RoutedEventArgs e)　
         {
             EmployeeGrid.ItemsSource = await _service.GetAllAsync();
         }

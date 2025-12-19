@@ -2,7 +2,8 @@
 using System;
 using System.Collections.Generic;
 using System.Windows;
-using benkyou5_4.Services;
+using benkyou5_4.Services; // ← これを追加！
+using SharedModels;
 
 namespace benkyou5_4
 {

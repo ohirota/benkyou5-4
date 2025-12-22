@@ -40,7 +40,7 @@ namespace benkyou5_4
                 {
                     Name = NameBox.Text,
                     Department = DeptBox.Text,
-                    Age = int.Parse(AgeBox.Text)
+                    EmployeeAge = int.Parse(AgeBox.Text)
                 };
                 await _service.AddAsync(emp);
                 LoadEmployees();
@@ -64,7 +64,7 @@ namespace benkyou5_4
 
             selectedItem.Name = NameBox.Text;
             selectedItem.Department = DeptBox.Text;
-            selectedItem.Age = int.Parse(AgeBox.Text);
+            selectedItem.EmployeeAge = int.Parse(AgeBox.Text);
 
             await _service.UpdateAsync(selectedItem);
             LoadEmployees();

@@ -17,7 +17,7 @@
         <StackPanel Orientation="Vertical" Margin="10" Grid.Row="1">
             <TextBox x:Name="NameBox" Text="名前を入力" Margin="5"/>
             <TextBox x:Name="DeptBox" Text="部署を入力" Margin="5"/>
-            <TextBox x:Name="AgeBox" Text="年齢を入力" Margin="5"/>
+            <DatePicker x:Name="HireDatePicker" Width="150" />
 
             <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" Margin="5">
                 <Button Content="再読込" Click="ReloadButton_Click" Margin="5"/>
